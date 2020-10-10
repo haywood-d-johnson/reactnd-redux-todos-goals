@@ -5,7 +5,7 @@ import ConnectedGoals from "./Goals";
 import ConnectedTodos from "./Todos";
 import { handleInitialData } from "../actions/shared";
 
-class App extends React.Component {
+class App extends Component {
   componentDidMount() {
     const { dispatch } = this.props;
 

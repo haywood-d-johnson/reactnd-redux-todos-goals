@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import List from "./List";
 import { handleAddGoal, handleDeleteGoal } from "../actions/goals";
 
-class Goals extends React.Component {
+class Goals extends Component {
   addItem = (e) => {
     e.preventDefault();
     this.props.dispatch(
